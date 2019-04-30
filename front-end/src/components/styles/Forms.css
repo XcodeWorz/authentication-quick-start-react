@@ -1,0 +1,79 @@
+
+.form-element {
+  box-sizing: border-box;
+  padding: 1em;
+  margin: 0.2em 0.5em;
+
+  flex: 1;
+  font-size: 1em;
+
+  width: 95%;
+}
+
+input.form-element {
+  background-color: #231f1f;
+  color: #f5eded;
+
+  border-radius: 2px;
+  border: 1px solid #464141;
+
+  transition: border .3s ease;
+}
+
+input.form-element:hover {
+  border-color: #C53131;
+}
+
+input.form-element:focus {
+  border-color: #C53131;
+  background-color: #464141;
+}
+
+input.disabled {
+  color: #999;
+}
+
+textarea.form-element {
+  background-color: #231f1f;
+  color: #f5eded;
+
+  border-radius: 2px;
+  border: 1px solid #464141;
+
+  transition: border .3s ease;
+}
+
+textarea.form-element:hover {
+  border-color: #C53131;
+}
+
+textarea.form-element:focus {
+  border-color: #C53131;
+  background-color: #3a3636;
+}
+
+button.form-element {
+  background-color: #C53131;
+  color: #f5eded;
+
+  border-radius: 2px;
+  border: 1px solid rgb(180, 45, 45);
+
+  transition: background-color .3s ease;
+}
+
+button.form-element:hover {
+  background-color: rgb(219, 43, 43);
+}
+
+button.form-element:disabled {
+  background-color: rgb(109, 25, 25);
+  border: 1px solid rgb(133, 34, 34);
+  color: #C53131;
+  cursor: auto;
+}
+
+.form-label {
+  text-align: left;
+  
+}

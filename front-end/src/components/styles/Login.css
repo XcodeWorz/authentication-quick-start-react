@@ -1,0 +1,18 @@
+.login {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  padding: 0 2em;
+
+  border-radius: 2px;
+  background-color: #2d2828;
+
+  text-align: center;
+}
+
+.login-header {
+  color: #C53131;
+  text-shadow: 0 0 6px rgba(46, 43, 43, 0.8);
+  margin-bottom: 0;
+}
