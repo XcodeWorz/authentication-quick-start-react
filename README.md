@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Front End
 
 The front end was made with Create React App. Use the following scripts to quick start it. You can change the api url link in the settings file (./src/settings.js)
