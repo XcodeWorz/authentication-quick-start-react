@@ -3,9 +3,7 @@
 }
 
 body {
-  background-image: url(./images/background.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #111;
   color: #f5eded;
   font-family: 'Averia Libre', sans-serif;
 }
